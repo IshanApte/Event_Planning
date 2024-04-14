@@ -1,1 +1,47 @@
-Food,Type,Dispensers,Platters,DispoBowls,DesertSpoons,FlatTongs,SaladTongs,ColdCups,CreamerPitcher,HotCupsLids,ServingSpoons,Risers,SugarCaddy,PieServers,Ladles,Tongs,SoupSpoons,ChafferFull,ChafferRound,LargeBowl,SmallBowl,Sternos
+Food,Type,Dispensers,Platters,SoupSpoon,Tongs,ServingSpoons,Risers,PieServers,Ladles,ChafferFull,LargeBowl,SmallBowl,Sternos
+Fresh Fruit Salad,Breakfast,0,1,0,1,0,0,0,0,0,0,0,0
+"Freshly Baked Assorted Muffins, Danish & Quick Breads",Breakfast,0,0,0,1,0,0,0,0,0,0,0,0
+Oatmeal with Brown Sugar and Raisins,Breakfast,0,0,0,0,1,0,0,0,0,0,0,0
+Home Fried Potatoes,Breakfast,0,0,0,1,0,0,0,0,1,0,0,2
+Fischer Farms Sausage,Breakfast,0,0,0,1,0,0,0,0,1,0,0,2
+Fischer Farms Smoked Bacon,Breakfast,0,0,0,1,0,0,0,0,1,0,0,2
+Scrambled Eggs,Breakfast,0,0,0,0,1,0,0,0,1,0,0,2
+Assorted Chips,BoxLunch,0,1,0,1,0,0,0,0,0,0,0,0
+Spicy Feta Spread,BoxLunch,0,0,1,0,0,0,0,0,0,0,0,0
+Grilled Veggies sandwiches,BoxLunch,0,0,0,0,0,0,0,0,0,0,0,0
+Roasted Turkey sandwiches,BoxLunch,0,0,0,0,0,0,0,0,0,0,0,0
+Condiments,BoxLunch,0,0,1,0,0,0,0,0,0,0,0,0
+Assorted Cookies,BoxLunch,0,1,0,0,0,0,0,0,0,0,0,0
+Whole Fruit,BoxLunch,0,1,0,0,0,0,0,0,0,0,0,0
+Cheese Pizza,Pizza,0,0,0,0,0,0,1,0,0,0,0,0
+Pepperoni Pizza,Pizza,0,0,0,0,0,0,1,0,0,0,0,0
+Cheese Pizza Vegan,Pizza,0,0,0,0,0,0,1,0,0,0,0,0
+Garlic bread,Italian,0,0,0,1,0,0,0,0,0,0,0,0
+Spaghetti & Penne,Italian,0,0,0,0,1,0,0,0,1,0,0,2
+House Tomato Sauce & Pesto Sauce,Italian,0,0,0,0,0,0,0,0,1,0,0,2
+Eggplant Pamesan,Italian,0,0,0,0,1,0,0,0,1,0,0,2
+Italian Meatballs,Italian,0,0,0,0,1,0,0,0,1,0,0,2
+Seasonal Vegetables,Italian,0,0,0,0,1,0,0,0,1,0,0,2
+Petite Pastries,Italian,0,1,0,1,0,0,0,0,0,0,0,0
+Chicken Caesar Wrap,Boxed Lunch,0,0,0,0,0,0,0,0,0,0,0,0
+Ham and Turkey Sandwhiches,Boxed Lunch,0,0,0,0,0,0,0,0,0,0,0,0
+Popcorn,Movie,0,1,0,0,0,0,0,0,0,0,0,0
+Sugar Tridents,Movie,0,1,0,0,0,0,0,0,0,0,0,0
+Fresh Sliced Fruit,Movie,0,1,0,1,0,0,0,0,0,0,0,0
+Baklava,Samira,0,1,0,1,0,0,0,0,0,0,0,0
+Rice with Raisins and Carrots,Samira,0,0,0,0,1,0,0,0,1,0,0,2
+Dal,Samira,0,0,0,0,0,0,0,1,1,0,0,2
+Cucumber Salad,Samira,0,0,0,1,0,0,0,0,0,0,0,0
+Baked Turnips,Samira,0,0,0,0,1,0,0,0,1,0,0,2
+Butternust Squash,Samira,0,0,0,0,1,0,0,0,1,0,0,2
+Beef Kabab,Samira,0,0,0,0,1,0,0,0,1,0,0,2
+Chicken Drumsticks,Samira,0,0,0,0,1,0,0,0,1,0,0,2
+Brown County Regular Coffee,Drinks,1,0,0,0,0,0,0,0,0,0,0,0
+Hot Tea,Drinks,1,0,0,0,0,0,0,0,0,0,0,0
+Orange Juice,Drinks,1,0,0,0,0,0,0,0,0,0,0,0
+Hoosier Punch,Drinks,1,0,0,0,0,0,0,0,0,0,0,0
+Ice Tea,Drinks,1,0,0,0,0,0,0,0,0,0,0,0
+Lemonade,Drinks,1,0,0,0,0,0,0,0,0,0,0,0
+Vita Malt,Drinks,1,0,0,0,0,0,0,0,0,0,0,0
+Assorted Soft Drinks,Drinks,0,0,0,0,0,0,0,0,0,0,0,0
+Bottled Water,Drinks,0,0,0,0,0,0,0,0,0,0,0,0
