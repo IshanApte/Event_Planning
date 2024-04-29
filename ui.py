@@ -1,5 +1,4 @@
 import tkinter as tk
-from tkinter import ttk
 import pandas as pd
 from planner import calculate_requirements
 
@@ -49,7 +48,7 @@ class EventPlannerUI:
         num_people = int(self.num_people_entry.get())
         num_food_items = int(self.num_food_items_entry.get())
         num_drink_items = int(self.num_drink_items_entry.get())
-        additional_items = self.additional_items_entry.get().split() if self.additional_items_entry.get() else None
+        additional_items = self.additional_items_entry.get().split(',') if self.additional_items_entry.get() else None
 
         # Calculate requirements
         num_workers, suggested_food_items, suggested_drink_items, required_items, required_utensils, instructions = calculate_requirements(event_type, food_type, num_people, num_food_items, num_drink_items, additional_items)
@@ -60,7 +59,7 @@ class EventPlannerUI:
         self.display_result("Suggested drink items:", ", ".join(suggested_drink_items), 9)
         self.display_result("Required items:", required_items.to_string(), 10)
         self.display_result("Required utensils:", required_utensils.to_string(), 11)
-        self.display_result("Instructions:", instructions, 12)
+        self.display_list("Instructions:", instructions, 12)
 
     def display_result(self, label_text, result_text, row):
         # Create a label for the result and place it in the first column
@@ -74,6 +73,17 @@ class EventPlannerUI:
         # Insert the result text into the text box
         result_box.insert(tk.END, result_text)
 
+    def display_list(self, label_text, list, row):
+        # Create a label for the result and place it in the first column
+        label = tk.Label(self.master, text=label_text)
+        label.grid(row=row, column=0, sticky="w")
+
+        # Create a text box for displaying the result and place it in the second column
+        listbox = tk.Listbox(self.master, height=10, width=50)
+        listbox.grid(row=row, column=1)
+        
+        for item in list:
+            listbox.insert(tk.END, item)
 
 def main():
     root = tk.Tk()
